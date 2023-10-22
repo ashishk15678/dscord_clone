@@ -1,7 +1,7 @@
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import { ThemeProvider } from "@/components/ui/providers/theme-proivider";
+import { ThemeProvider } from "@/components/ui/providers/theme-proivider.jsx";
 import { cn } from "@/lib/utils";
 export const metadata = {
   title: "Create Next App",
